@@ -4,6 +4,17 @@
     color: rgb(255, 255, 255);
     
 }
+.bordeenav {
+  width: 100%;
+  background-size: cover;
+  box-shadow:0 0  10px rgba(7,7,7,.7);
+  min-height: 198px;
+}
+
+.bordeenav  {
+  border-style: none;
+  vertical-align: middle;
+}
 .navbar{
   background: rgba(39, 37, 37, 0.918) !important;
   min-height: 80px;

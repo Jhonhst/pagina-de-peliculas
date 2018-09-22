@@ -25,7 +25,7 @@
     <!-- aqui llega el boton de inicio que esta al final en footer a casi en el footer -->
 
     <!-- inicio de navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bordeenav">
     <a class="navbar-brand " href="portada.php">SuperPelis</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

@@ -21,7 +21,7 @@ include_once 'parteextrenos.php';
 <body style="background: rgb(39, 37, 37)">
   <!-- inicio de navbar -->
   <!-- aqui cambie todo en navbbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bordeenav">
     <a class="navbar-brand " href="portada.php">SuperPelis</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -54,6 +54,7 @@ include_once 'parteextrenos.php';
       </div>
     </div>
   </nav>
+  <hr>
   <!-- fin de navbar -->
 
   <!--inicio de conteo de peliculas -->

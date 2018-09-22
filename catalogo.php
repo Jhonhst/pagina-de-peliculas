@@ -18,7 +18,7 @@ include_once 'parteextrenos.php';
   <link rel="icon" href="img/superpelisicon.ico">
   <title>Catálogo </title>
 </head>
-<body style="background: black">
+<body style="background: rgb(39, 37, 37)">
   <!-- inicio de navbar -->
   <!-- aqui cambie todo en navbbar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top ">

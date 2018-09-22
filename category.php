@@ -18,7 +18,7 @@
     <link rel="icon" href="img/superpelisicon.ico">
     <title ><?php echo $asociativo['genero'] ?></title>
 </head>
-<body style="background: black">
+<body style="background: rgb(39, 37, 37)">
 
       <!-- inicio de navbar -->
     <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
@@ -57,7 +57,7 @@
        <!-- fin de navbar -->
 
       <!-- inicio de vista de peliculas -->
-    <div class="container-fluid mt-5"  id="a">
+    <div class="container mt-5"  id="a">
         <h4 class="d-none d-md-block letra">Categoria: <?php echo $asociativo['genero'] ?></h4>
         <h5 class="d-md-none letra">Categoria: <?php echo $asociativo['genero'] ?></h5>
         <div class="row">

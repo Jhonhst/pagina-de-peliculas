@@ -17,7 +17,7 @@ include_once 'parteextrenos.php';
   <link rel="icon" href="img/superpelisicon.ico">
   <title>Categorias</title>
 </head>
-<body style="background: black">
+<body style="background: rgb(39, 37, 37)">
  
      <!-- inicio de navbar -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
@@ -56,7 +56,7 @@ include_once 'parteextrenos.php';
      <!-- fin de navbar -->
 
       <!-- inicio categorias todo-->
-  <div class="container-fluid ">
+  <div class="container-fluid mt-5">
     <div class="row">
       <div class="d-none d-sm-block col-sm-3 ">
         <p class="idioma"><?php switch($numero12['idioma']){case 'espaniol': echo "Español latino";break;case 'subespaniol': echo "Sub español";break;case 'espanioles': echo "Español";break;}?></p>
@@ -66,7 +66,7 @@ include_once 'parteextrenos.php';
             <img src="<?php echo $numero11['imagen'] ?>" alt="" class="img-fluid imgmedio" style="width: 100%; height: 50%;"></a>
       </div>
        <!--inicio categorias -->
-      <div class="col-xs-12 col-sm-6 mt-0">
+      <div class="col-xs-12 col-sm-6 mt-5">
         <div class="row  ">
           <!-- inicio de la primera parte de categorias -->
           <div class="col-6">

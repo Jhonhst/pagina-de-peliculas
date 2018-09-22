@@ -18,7 +18,7 @@
   <link rel="icon" href="img/superpelisicon.ico">
   <title>pelis</title>
 </head>
-<body   style="background: rgba(0, 0, 0, 1);">
+<body   style="background: rgb(39, 37, 37)">
 
     <!-- aqui llega el boton de inicio que esta al final en footer a casi en el footer -->
   <div id="inicio"></div>

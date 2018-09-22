@@ -20,4 +20,5 @@ foreach($_REQUEST['opcion'] as $idcategoria){
 mysqli_close($con);
 
 echo  'la nueva pelicula se almaceno exitosamente';
+echo '<a href="datosdelapeliphp.html.php">volver</a>';
 ?>

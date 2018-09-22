@@ -29,24 +29,35 @@
 <?php
     if(isset($_GET['id_movie'])){
         $direccion = $_GET['id_movie'];
+
+        // manda los datos
         $url = "https://api.themoviedb.org/3/movie/".$direccion."?api_key=bc122acc3ceeabb52aef5dd77dc6cc5a&language=es";//optener mayoria de datos
         $json = file_get_contents($url);//aqui llama los datos
         $datos = json_decode($json,true);//aqui me decodifica el json
     
+        // manda las imagenes
         $urlimg = "https://api.themoviedb.org/3/movie/".$direccion."/images?api_key=bc122acc3ceeabb52aef5dd77dc6cc5a";//para optener las imagenes
         $jsonimg = file_get_contents($urlimg);//aqui llama los datos
         $datosimg = json_decode($jsonimg,true);//aqui me decodifica el json
 
+        // manda el trailer
+        $urltrailer = "https://api.themoviedb.org/3/movie/".$direccion."/videos?api_key=bc122acc3ceeabb52aef5dd77dc6cc5a&language=es";//para optener las imagenes
+        $jsontrailer = file_get_contents($urltrailer);//aqui llama los datos
+        $datostrailer = json_decode($jsontrailer,true);//aqui me decodifica el json
+
+
 
         $imagenv = "https://image.tmdb.org/t/p/original".$datosimg['posters'][0]['file_path'];
         $imagenh = "https://image.tmdb.org/t/p/original".$datosimg['backdrops'][0]['file_path'];
-        $trailer = $datos['video'];
+        $trailer = $datostrailer['results'][0]['key'];
         $titulo = $datos['title'];
         $titulo_orinal = $datos['original_title'];
         $anio = $datos['release_date'];
         $duracion = $datos['runtime'];
         $sinopsis = $datos['overview'];
         $generos = $datos['genres'];
+
+       
 
 
     // echo $imagenv;
@@ -86,13 +97,13 @@
                 <input type="text" class="form-control" name="imagenho" value="<?php echo $imagenh ?>"><br> 
 
                 servidor openload:
-                <input type="text" class="form-control" name="video" value="<?php  ?>"><br>
+                <input type="text" class="form-control" name="video" value="https://www.youtube.com/embed/9CO6Ta3xfUA"><br>
 
                 servidor strinmanfo:
-                <input type="text" class="form-control" name="video2" value="<?php  ?>"><br>
+                <input type="text" class="form-control" name="video2" value="https://www.youtube.com/embed/sWtQqhYcK1Q"><br>
 
                 servido 3:
-                <input type="text" class="form-control" name="video3" value="<?php  ?>"><br>
+                <input type="text" class="form-control" name="video3" value="https://www.youtube.com/embed/VOew9nnVbwI"><br>
 
                 link de descarga:
                 <input type="text" class="form-control" name="descarga" value="<?php  ?>"><br>

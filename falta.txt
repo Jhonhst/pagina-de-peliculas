@@ -1,10 +1,7 @@
+subir las peliculas a los servidores
 falta colocar la parte de comentarios
 tambien para que la gente repporte que esta rota la pelicula
 ver que se vea bien para movil la pelicula 
-un alerta para cuando se suba la peli
-optener el trailer
 en modificar falta para modificar categorias e idiomas
-falta colocar videos por defectos mistras coloco las pelis
+busqueda extrema
 
-git remote add origin https://github.com/Jhonhst/rsdfsdf.git
-git push -u origin master

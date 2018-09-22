@@ -20,7 +20,7 @@
     <link rel="icon" href="img/superpelisicon.ico">
     <title>Ver Pelicula <?php echo $reg['titulo']; ?> Online Gratis Full HD <?php switch($reg['idioma']){case 'espaniol': echo "Español latino";break;case 'subespaniol': echo "Sub español";break;case 'espanioles': echo "Español";break;}?>   </title>
 </head>
-<body style="background-color: rgb(0, 0, 0);">
+<body style="background: rgb(39, 37, 37)">
     
 <div class="fondo" style="background-image: url(<?php echo $reg['imagenho']; ?>);" >       
          
